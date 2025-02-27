@@ -18,4 +18,14 @@
         <max-core-version/>	
     </core-version-dependency>
 
+    <!-- Daemons -->
+    <daemons>
+        <daemon>
+            <daemon-id>emailValidationDaemon</daemon-id>
+            <daemon-name>taskstackidentity.daemon.emailValidationDaemon.name</daemon-name>
+            <daemon-description>taskstackidentity.daemon.emailValidationDaemon.description</daemon-description>
+            <daemon-class>fr.paris.lutece.plugins.identitystore.modules.taskstack.daemon.EmailValidationDaemon</daemon-class>
+        </daemon>
+    </daemons>
+
 </plug-in>
